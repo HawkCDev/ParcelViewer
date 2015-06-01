@@ -1,0 +1,279 @@
+{
+  "layers": [
+    {
+      "name": "Parcel",
+      "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/24",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "zoomScale": 10000,
+      "shareResult": true,
+      "addToAttrib": true,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Parcel ID (PID)",
+            "textsearchlabel": "PID",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "PID",
+                    "label": "PID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "PID contains",
+                  "textsearchhint": "123123123",
+                  "sqltext": "Upper(PID) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "PIN Number",
+            "textsearchlabel": "PIN Number",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "PIN",
+                    "label": "PIN",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "PIN contains",
+                  "textsearchhint": "1111-11-1111",
+                  "sqltext": "Upper(PIN) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Name 1",
+            "textsearchlabel": "Name 1",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "Name1",
+                    "label": "Name1",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Name1 contains",
+                  "textsearchhint": "Smith John",
+                  "sqltext": "Upper(Name1) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Name 2",
+            "textsearchlabel": "Name 2",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "Name2",
+                    "label": "Name2",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Name2 contains",
+                  "textsearchhint": "Smith John",
+                  "sqltext": "Upper(Name2) LIKE Upper('%[value]%')",
+                  "operation": "stringOperatorContains"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "REID",
+            "textsearchlabel": "REID",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "REID",
+                    "label": "REID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "REID is",
+                  "textsearchhint": "1111111",
+                  "sqltext": "Upper(REID) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "PID",
+            "alias": "PID"
+          },
+          {
+            "name": "PIN",
+            "alias": "PIN"
+          },
+          {
+            "name": "Name1",
+            "alias": "Name1"
+          },
+          {
+            "name": "Name2",
+            "alias": "Name2"
+          },
+          {
+            "name": "LegalDescription",
+            "alias": "LegalDescription"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "showattachments": false,
+      "layersymbolfrom": "server"
+    }
+  ],
+  "initialView": "text",
+  "disabledtabs": [
+    "graphic",
+    "spatial",
+    "result"
+  ],
+  "multipartgraphicsearchchecked": false,
+  "addpointtolerancechecked": false,
+  "keepgraphicalsearchenabled": true,
+  "autozoomtoresults": true,
+  "toleranceforpointgraphicalselection": 6,
+  "bufferDefaults": {
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true
+  },
+  "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "http://gis-14.int.harnett.org:3344/widgets/eSearch/images/i_search.png",
+      "width": 20.00025,
+      "height": 20.00025
+    },
+    "simplelinesymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        204
+      ],
+      "width": 2.25,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        128
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          204
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  }
+}

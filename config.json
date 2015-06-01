@@ -1,0 +1,305 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "harnett",
+      "default",
+      "black",
+      "cyan"
+    ],
+    "version": "1.2"
+  },
+  "portalUrl": "http://harnett.maps.arcgis.com",
+  "appId": "",
+  "title": "Harnett County GIS",
+  "subtitle": "",
+  "logo": "images\\logo.png",
+  "geometryService": "http://gistoolbox.harnett.org/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "",
+      "url": ""
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 55
+        },
+        "version": "1.2",
+        "id": "themes/FoldableTheme/widgets/HeaderController/Widget_1",
+        "name": "HeaderController",
+        "label": "Header Controller",
+        "config": "configs/HeaderController/config_Header Controller.json"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 25,
+          "bottom": 25
+        },
+        "version": "1.2",
+        "id": "widgets/Scalebar/Widget_2",
+        "name": "Scalebar",
+        "label": "Scalebar",
+        "positionRelativeTo": "map",
+        "config": "configs/Scalebar/config_Scalebar.json"
+      },
+      {
+        "uri": "widgets/Geocoder/Widget",
+        "position": {
+          "left": 45,
+          "top": 5
+        },
+        "version": "1.2",
+        "id": "widgets/Geocoder/Widget_3",
+        "name": "Geocoder",
+        "label": "Geocoder",
+        "positionRelativeTo": "map",
+        "config": "configs/Geocoder/config_Geocoder.json"
+      },
+      {
+        "uri": "widgets/Location/Widget",
+        "position": {
+          "left": 25,
+          "bottom": 45
+        },
+        "version": "1.2",
+        "id": "widgets/Location/Widget_4",
+        "name": "Location",
+        "label": "Location",
+        "positionRelativeTo": "map",
+        "config": "configs/Location/config_Location.json",
+        "IsController": false
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "width": 400,
+          "height": 410
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "positionRelativeTo": "map",
+        "name": "eSearch",
+        "label": "Enhanced Search",
+        "version": "1.1.3",
+        "uri": "widgets/eSearch/Widget",
+        "config": "configs/eSearch/config_Enhanced Search.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "width": 380,
+          "height": 410
+        },
+        "placeholderIndex": 1,
+        "id": "_6",
+        "positionRelativeTo": "map",
+        "name": "Identify",
+        "label": "Identify",
+        "version": "1.1.1",
+        "IsController": false,
+        "uri": "widgets/Identify/Widget",
+        "config": "configs/Identify/config_Identify.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "top": 50,
+          "right": 0
+        },
+        "version": "1.2",
+        "id": "widgets/OverviewMap/Widget_8",
+        "name": "OverviewMap",
+        "label": "Overview Map",
+        "positionRelativeTo": "map"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75
+        },
+        "version": "1.2",
+        "id": "widgets/HomeButton/Widget_9",
+        "name": "HomeButton",
+        "label": "Home Button",
+        "positionRelativeTo": "map"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110
+        },
+        "version": "1.2",
+        "id": "widgets/MyLocation/Widget_10",
+        "name": "MyLocation",
+        "label": "My Location",
+        "positionRelativeTo": "map"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "positionRelativeTo": "browser",
+        "version": "1.2",
+        "id": "widgets/AttributeTable/Widget_11",
+        "name": "AttributeTable",
+        "label": "Attribute Table",
+        "position": {
+          "left": 0,
+          "top": 0
+        },
+        "config": "configs/AttributeTable/config_Attribute Table.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "positionRelativeTo": "browser",
+        "version": "1.2",
+        "id": "widgets/Splash/Widget_12",
+        "name": "Splash",
+        "label": "Splash",
+        "position": {
+          "left": 0,
+          "top": 0
+        },
+        "config": "configs/Splash/config_Splash.json"
+      },
+      {
+        "uri": "widgets/TimeSlider/Widget",
+        "visible": false,
+        "position": {
+          "bottom": 55,
+          "left": 7
+        },
+        "version": "1.2",
+        "id": "widgets/TimeSlider/Widget_13",
+        "name": "TimeSlider",
+        "label": "Time Slider",
+        "positionRelativeTo": "map"
+      },
+      {
+        "uri": "widgets/Swipe/Widget",
+        "position": {
+          "top": 145,
+          "left": 7
+        },
+        "version": "1.2",
+        "id": "widgets/Swipe/Widget_14",
+        "name": "Swipe",
+        "label": "Swipe",
+        "positionRelativeTo": "map",
+        "config": "configs/Swipe/config_Swipe.json"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/PreloadWidgetIconPanel",
+      "positionRelativeTo": "map"
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 55,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "32f92fd7609f4858ad2e566b3d35276e",
+    "mapOptions": {
+      "extent": {
+        "xmin": 1937822.2296294104,
+        "ymin": 529883.7849714372,
+        "xmax": 2140488.8962960774,
+        "ymax": 655083.7849714372,
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://harnett.maps.arcgis.com/"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "positionRelativeTo": "map",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      }
+    },
+    "widgets": [
+      {
+        "name": "BasemapGallery",
+        "label": "Basemap Gallery",
+        "version": "1.2",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_Basemap Gallery.json",
+        "index": 2,
+        "id": "widgets/BasemapGallery/Widget_20"
+      },
+      {
+        "name": "LayerList",
+        "label": "Layer List",
+        "version": "1.2",
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config_Layer List.json",
+        "index": 3,
+        "id": "widgets/LayerList/Widget_19"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "1.2",
+        "id": "widgets/Legend/Widget_15",
+        "name": "Legend",
+        "label": "Legend",
+        "index": 4
+      },
+      {
+        "name": "Measurement",
+        "label": "Measurement",
+        "version": "1.2",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_Measurement.json",
+        "index": 5,
+        "id": "widgets/Measurement/Widget_21"
+      },
+      {
+        "name": "Print",
+        "label": "Print",
+        "version": "1.2",
+        "uri": "widgets/Print/Widget",
+        "index": 6,
+        "id": "widgets/Print/Widget_18"
+      },
+      {
+        "name": "About",
+        "label": "About",
+        "version": "1.2",
+        "uri": "widgets/About/Widget",
+        "index": 7,
+        "id": "widgets/About/Widget_17",
+        "config": "configs/About/config_About.json"
+      }
+    ],
+    "groups": []
+  },
+  "wabVersion": "1.2",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "/proxy.js"
+  }
+}

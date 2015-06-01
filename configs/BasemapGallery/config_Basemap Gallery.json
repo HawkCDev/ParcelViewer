@@ -1,0 +1,84 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "title": "Harnett 1995",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl.jpeg",
+        "layers": [
+          {
+            "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials_1995/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      },
+      {
+        "title": "Harnett 2002",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_5.jpeg",
+        "layers": [
+          {
+            "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials_2002/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      },
+      {
+        "title": "Harnett 2005",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_6.jpeg",
+        "layers": [
+          {
+            "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials_2005/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      },
+      {
+        "title": "Harnett 2008",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_6.jpeg",
+        "layers": [
+          {
+            "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials_2008rgb/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      },
+      {
+        "title": "Harnett 2010",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_6.jpeg",
+        "layers": [
+          {
+            "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials_2010/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      },
+      {
+        "title": "Hillshade DEM 20ft",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnail_hillshade.jpg",
+        "layers": [
+          {
+            "url": "http://services.nconemap.com/arcgis/rest/services/Elevation/DEM20ft_Hillshade/ImageServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264
+        }
+      }
+    ]
+  }
+}

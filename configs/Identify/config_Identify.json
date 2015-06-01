@@ -1,0 +1,1033 @@
+{
+  "identifylayeroption": "visible",
+  "identifytolerance": 5,
+  "defaultzoomscale": 5000,
+  "keepidentifyactive": true,
+  "returngeometryforzoom": true,
+  "enablelineselect": false,
+  "enablefreehandlineselect": true,
+  "enablepolylineselect": false,
+  "enableextentselect": false,
+  "enabletriangleselect": false,
+  "enablepolyselect": true,
+  "enablefreehandpolyselect": true,
+  "enablecircleselect": true,
+  "enableellipseselect": true,
+  "enablegraphicclickinfo": true,
+  "usemaptime": false,
+  "infoautoclosemilliseconds": 2000,
+  "autoactivatedtool": "point",
+  "disablelayerdropdown": false,
+  "disablealllayerschoice": false,
+  "replacenullswithemptystring": true,
+  "enablemouseoverrecordinfo": true,
+  "enablemouseovergraphicsinfo": true,
+  "layers": {
+    "onlythese": false,
+    "layer": [
+      {
+        "name": "Parcel Identify",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer",
+        "id": 24,
+        "zoomscale": "",
+        "forcescale": true,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "PID",
+              "alias": "PID"
+            },
+            {
+              "name": "PIN",
+              "alias": "PIN"
+            },
+            {
+              "name": "SUBDIV",
+              "alias": "SUBDIV"
+            },
+            {
+              "name": "DEEDED_ACREAGE",
+              "alias": "DEEDED_ACREAGE",
+              "isnumber": true
+            },
+            {
+              "name": "TOTAL_ACREAGE",
+              "alias": "TOTAL_ACREAGE",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelID",
+              "alias": "ParcelID",
+              "isnumber": true
+            },
+            {
+              "name": "AccountNumber",
+              "alias": "AccountNumber"
+            },
+            {
+              "name": "Name1",
+              "alias": "Name1"
+            },
+            {
+              "name": "Name2",
+              "alias": "Name2"
+            },
+            {
+              "name": "Address1",
+              "alias": "Address1"
+            },
+            {
+              "name": "Address2",
+              "alias": "Address2"
+            },
+            {
+              "name": "Address3",
+              "alias": "Address3"
+            },
+            {
+              "name": "City",
+              "alias": "City"
+            },
+            {
+              "name": "State",
+              "alias": "State"
+            },
+            {
+              "name": "ZipCode",
+              "alias": "ZipCode"
+            },
+            {
+              "name": "AccountType",
+              "alias": "AccountType"
+            },
+            {
+              "name": "BuildingCount",
+              "alias": "BuildingCount",
+              "isnumber": true
+            },
+            {
+              "name": "PinNumber",
+              "alias": "PinNumber"
+            },
+            {
+              "name": "AssessmentRateCode",
+              "alias": "AssessmentRateCode"
+            },
+            {
+              "name": "TownshipCode",
+              "alias": "TownshipCode"
+            },
+            {
+              "name": "CityCode",
+              "alias": "CityCode"
+            },
+            {
+              "name": "FireCode",
+              "alias": "FireCode"
+            },
+            {
+              "name": "WaterCode",
+              "alias": "WaterCode"
+            },
+            {
+              "name": "TaxExemptCode",
+              "alias": "TaxExemptCode"
+            },
+            {
+              "name": "AppraisedBy",
+              "alias": "AppraisedBy"
+            },
+            {
+              "name": "DateAppraised",
+              "alias": "DateAppraised",
+              "isdate": true
+            },
+            {
+              "name": "VisitedBy",
+              "alias": "VisitedBy"
+            },
+            {
+              "name": "DateVisited",
+              "alias": "DateVisited",
+              "isdate": true
+            },
+            {
+              "name": "ReviewedBy",
+              "alias": "ReviewedBy"
+            },
+            {
+              "name": "DateReviewed",
+              "alias": "DateReviewed",
+              "isdate": true
+            },
+            {
+              "name": "NoticeCode",
+              "alias": "NoticeCode"
+            },
+            {
+              "name": "ImprovementType",
+              "alias": "ImprovementType"
+            },
+            {
+              "name": "ValuationModel",
+              "alias": "ValuationModel"
+            },
+            {
+              "name": "InformationSource",
+              "alias": "InformationSource"
+            },
+            {
+              "name": "ParcelBuildingValue",
+              "alias": "ParcelBuildingValue",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelObxfValue",
+              "alias": "ParcelObxfValue",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelLandValue",
+              "alias": "ParcelLandValue",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelSpecialLandValue",
+              "alias": "ParcelSpecialLandValue",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelDeferredValue",
+              "alias": "ParcelDeferredValue",
+              "isnumber": true
+            },
+            {
+              "name": "TotalAssessedValue",
+              "alias": "TotalAssessedValue",
+              "isnumber": true
+            },
+            {
+              "name": "TotalMarketValue",
+              "alias": "TotalMarketValue",
+              "isnumber": true
+            },
+            {
+              "name": "ParcelCardNotes",
+              "alias": "ParcelCardNotes"
+            },
+            {
+              "name": "HouseNumber",
+              "alias": "HouseNumber"
+            },
+            {
+              "name": "UnitNumber",
+              "alias": "UnitNumber"
+            },
+            {
+              "name": "StreetDirection",
+              "alias": "StreetDirection"
+            },
+            {
+              "name": "StreetName",
+              "alias": "StreetName"
+            },
+            {
+              "name": "StreetType",
+              "alias": "StreetType"
+            },
+            {
+              "name": "StreetSuffix",
+              "alias": "StreetSuffix"
+            },
+            {
+              "name": "ParCity",
+              "alias": "ParCity"
+            },
+            {
+              "name": "PriorLandValue",
+              "alias": "PriorLandValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorBuildingValue",
+              "alias": "PriorBuildingValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorObxfValue",
+              "alias": "PriorObxfValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorSpecialLandValue",
+              "alias": "PriorSpecialLandValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorDeferredValue",
+              "alias": "PriorDeferredValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorTotalValue",
+              "alias": "PriorTotalValue",
+              "isnumber": true
+            },
+            {
+              "name": "PriorLandUnits",
+              "alias": "PriorLandUnits",
+              "isnumber": true
+            },
+            {
+              "name": "PriorLandUnitType",
+              "alias": "PriorLandUnitType"
+            },
+            {
+              "name": "CalculatedLandUnits",
+              "alias": "CalculatedLandUnits",
+              "isnumber": true
+            },
+            {
+              "name": "CalculatedLandType",
+              "alias": "CalculatedLandType"
+            },
+            {
+              "name": "LegalDescription",
+              "alias": "LegalDescription"
+            },
+            {
+              "name": "LegalLandUnits",
+              "alias": "LegalLandUnits",
+              "isnumber": true
+            },
+            {
+              "name": "LegalLandType",
+              "alias": "LegalLandType"
+            },
+            {
+              "name": "Neighborhood",
+              "alias": "Neighborhood"
+            },
+            {
+              "name": "HistoricCode",
+              "alias": "HistoricCode"
+            },
+            {
+              "name": "TaxDataLastModified",
+              "alias": "TaxDataLastModified",
+              "isdate": true
+            },
+            {
+              "name": "TaxDataUserLastModified",
+              "alias": "TaxDataUserLastModified"
+            },
+            {
+              "name": "TR1Category",
+              "alias": "TR1Category"
+            },
+            {
+              "name": "AppealDate",
+              "alias": "AppealDate",
+              "isdate": true
+            },
+            {
+              "name": "AuditDate",
+              "alias": "AuditDate",
+              "isdate": true
+            },
+            {
+              "name": "PlatBook",
+              "alias": "PlatBook"
+            },
+            {
+              "name": "PlatPage",
+              "alias": "PlatPage"
+            },
+            {
+              "name": "Class",
+              "alias": "Class"
+            },
+            {
+              "name": "MobileHomeIndicator",
+              "alias": "MobileHomeIndicator",
+              "isnumber": true
+            },
+            {
+              "name": "NoticeCodeDateProcessed",
+              "alias": "NoticeCodeDateProcessed",
+              "isdate": true
+            },
+            {
+              "name": "AuditYear",
+              "alias": "AuditYear",
+              "isnumber": true
+            },
+            {
+              "name": "AuditCode",
+              "alias": "AuditCode"
+            },
+            {
+              "name": "TaxExemptDate",
+              "alias": "TaxExemptDate",
+              "isdate": true
+            },
+            {
+              "name": "Comment1",
+              "alias": "Comment1"
+            },
+            {
+              "name": "Comment2",
+              "alias": "Comment2"
+            },
+            {
+              "name": "CovenantExpirationYear",
+              "alias": "CovenantExpirationYear",
+              "isnumber": true
+            },
+            {
+              "name": "IsPaidByEscrow",
+              "alias": "IsPaidByEscrow",
+              "isnumber": true
+            },
+            {
+              "name": "MortgageHolder",
+              "alias": "MortgageHolder"
+            },
+            {
+              "name": "MortgageLoanNumber",
+              "alias": "MortgageLoanNumber"
+            },
+            {
+              "name": "ExemptionCode01",
+              "alias": "ExemptionCode01"
+            },
+            {
+              "name": "ExemptionCode02",
+              "alias": "ExemptionCode02"
+            },
+            {
+              "name": "ExemptionCode03",
+              "alias": "ExemptionCode03"
+            },
+            {
+              "name": "ExemptionCode04",
+              "alias": "ExemptionCode04"
+            },
+            {
+              "name": "ExemptionCode05",
+              "alias": "ExemptionCode05"
+            },
+            {
+              "name": "TaxCode01",
+              "alias": "TaxCode01"
+            },
+            {
+              "name": "TaxCode02",
+              "alias": "TaxCode02"
+            },
+            {
+              "name": "TaxCode03",
+              "alias": "TaxCode03"
+            },
+            {
+              "name": "TaxCode04",
+              "alias": "TaxCode04"
+            },
+            {
+              "name": "TaxCode05",
+              "alias": "TaxCode05"
+            },
+            {
+              "name": "TaxCode06",
+              "alias": "TaxCode06"
+            },
+            {
+              "name": "TaxCode07",
+              "alias": "TaxCode07"
+            },
+            {
+              "name": "TaxCode08",
+              "alias": "TaxCode08"
+            },
+            {
+              "name": "TaxCode09",
+              "alias": "TaxCode09"
+            },
+            {
+              "name": "TaxCode10",
+              "alias": "TaxCode10"
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent01",
+              "alias": "TaxCodeUnitsOrPercent01",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent02",
+              "alias": "TaxCodeUnitsOrPercent02",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent03",
+              "alias": "TaxCodeUnitsOrPercent03",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent04",
+              "alias": "TaxCodeUnitsOrPercent04",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent05",
+              "alias": "TaxCodeUnitsOrPercent05",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent06",
+              "alias": "TaxCodeUnitsOrPercent06",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent07",
+              "alias": "TaxCodeUnitsOrPercent07",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent08",
+              "alias": "TaxCodeUnitsOrPercent08",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent09",
+              "alias": "TaxCodeUnitsOrPercent09",
+              "isnumber": true
+            },
+            {
+              "name": "TaxCodeUnitsOrPercent10",
+              "alias": "TaxCodeUnitsOrPercent10",
+              "isnumber": true
+            },
+            {
+              "name": "ActualYearBuilt",
+              "alias": "ActualYearBuilt",
+              "isnumber": true
+            },
+            {
+              "name": "TotalAcutalAreaHeated",
+              "alias": "TotalAcutalAreaHeated",
+              "isnumber": true
+            },
+            {
+              "name": "DeedBook",
+              "alias": "DeedBook"
+            },
+            {
+              "name": "DeedPage",
+              "alias": "DeedPage"
+            },
+            {
+              "name": "SaleMonth",
+              "alias": "SaleMonth",
+              "isnumber": true
+            },
+            {
+              "name": "SaleYear",
+              "alias": "SaleYear",
+              "isnumber": true
+            },
+            {
+              "name": "InstrumentType",
+              "alias": "InstrumentType"
+            },
+            {
+              "name": "VacantOrImproved",
+              "alias": "VacantOrImproved"
+            },
+            {
+              "name": "QualifiedCode",
+              "alias": "QualifiedCode"
+            },
+            {
+              "name": "SalePrice",
+              "alias": "SalePrice",
+              "isnumber": true
+            },
+            {
+              "name": "TransferOrSplit",
+              "alias": "TransferOrSplit"
+            },
+            {
+              "name": "DeedDate",
+              "alias": "DeedDate",
+              "isdate": true
+            },
+            {
+              "name": "REID",
+              "alias": "REID"
+            },
+            {
+              "name": "SHAPE.STArea()",
+              "alias": "SHAPE.STArea()",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STLength()",
+              "alias": "SHAPE.STLength()",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Zoning",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer",
+        "id": 1,
+        "zoomscale": "1:10000",
+        "forcescale": true,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Zoning Classification",
+              "alias": "Zoning Classification"
+            },
+            {
+              "name": "Zoning Description",
+              "alias": "Zoning Description"
+            },
+            {
+              "name": "Last Update Date",
+              "alias": "Last Update Date",
+              "isdate": true
+            },
+            {
+              "name": "Last Editor",
+              "alias": "Last Editor"
+            },
+            {
+              "name": "CreateDate",
+              "alias": "CreateDate",
+              "isdate": true
+            },
+            {
+              "name": "CreatedBy",
+              "alias": "CreatedBy"
+            },
+            {
+              "name": "LastEditDate",
+              "alias": "LastEditDate",
+              "isdate": true
+            },
+            {
+              "name": "LastEditBy",
+              "alias": "LastEditBy"
+            },
+            {
+              "name": "EffectiveDate",
+              "alias": "EffectiveDate",
+              "isdate": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Land Use Current (2006)",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer",
+        "id": 2,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "Land Use Code",
+              "alias": "Land Use Code"
+            },
+            {
+              "name": "Land Use Description",
+              "alias": "Land Use Description"
+            },
+            {
+              "name": "Last Update Date",
+              "alias": "Last Update Date",
+              "isdate": true
+            },
+            {
+              "name": "Last Editor",
+              "alias": "Last Editor"
+            },
+            {
+              "name": "CreateDate",
+              "alias": "CreateDate",
+              "isdate": true
+            },
+            {
+              "name": "CreatedBy",
+              "alias": "CreatedBy"
+            },
+            {
+              "name": "LastEditDate",
+              "alias": "LastEditDate",
+              "isdate": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Subdivision Major",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer",
+        "id": 4,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "SUBDIVISION_NAME",
+              "alias": "SUBDIVISION_NAME"
+            },
+            {
+              "name": "SUBDIVISION_TYPE",
+              "alias": "SUBDIVISION_TYPE"
+            },
+            {
+              "name": "PHASE_NAME",
+              "alias": "PHASE_NAME"
+            },
+            {
+              "name": "SECTION_NAME",
+              "alias": "SECTION_NAME"
+            },
+            {
+              "name": "TOTAL_LOTS",
+              "alias": "TOTAL_LOTS",
+              "isnumber": true
+            },
+            {
+              "name": "LOCATION",
+              "alias": "LOCATION"
+            },
+            {
+              "name": "COMMENTS",
+              "alias": "COMMENTS"
+            },
+            {
+              "name": "PLAT_BOOK",
+              "alias": "PLAT_BOOK"
+            },
+            {
+              "name": "PLAT_PAGE",
+              "alias": "PLAT_PAGE"
+            },
+            {
+              "name": "RECORDED_DATE",
+              "alias": "RECORDED_DATE",
+              "isdate": true
+            },
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STArea()",
+              "alias": "SHAPE.STArea()",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STLength()",
+              "alias": "SHAPE.STLength()",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Subdivision Minor",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer",
+        "id": 2,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "SUBDIVISION_NAME",
+              "alias": "SUBDIVISION_NAME"
+            },
+            {
+              "name": "SUBDIVISION_TYPE",
+              "alias": "SUBDIVISION_TYPE"
+            },
+            {
+              "name": "PHASE_NAME",
+              "alias": "PHASE_NAME"
+            },
+            {
+              "name": "SECTION_NAME",
+              "alias": "SECTION_NAME"
+            },
+            {
+              "name": "TOTAL_LOTS",
+              "alias": "TOTAL_LOTS",
+              "isnumber": true
+            },
+            {
+              "name": "LOCATION",
+              "alias": "LOCATION"
+            },
+            {
+              "name": "COMMENTS",
+              "alias": "COMMENTS"
+            },
+            {
+              "name": "PLAT_BOOK",
+              "alias": "PLAT_BOOK"
+            },
+            {
+              "name": "PLAT_PAGE",
+              "alias": "PLAT_PAGE"
+            },
+            {
+              "name": "RECORDED_DATE",
+              "alias": "RECORDED_DATE",
+              "isdate": true
+            },
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STArea()",
+              "alias": "SHAPE.STArea()",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STLength()",
+              "alias": "SHAPE.STLength()",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Subdivision MHP",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer",
+        "id": 0,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "SUBDIVISION_NAME",
+              "alias": "SUBDIVISION_NAME"
+            },
+            {
+              "name": "SUBDIVISION_TYPE",
+              "alias": "SUBDIVISION_TYPE"
+            },
+            {
+              "name": "PHASE_NAME",
+              "alias": "PHASE_NAME"
+            },
+            {
+              "name": "SECTION_NAME",
+              "alias": "SECTION_NAME"
+            },
+            {
+              "name": "TOTAL_LOTS",
+              "alias": "TOTAL_LOTS",
+              "isnumber": true
+            },
+            {
+              "name": "LOCATION",
+              "alias": "LOCATION"
+            },
+            {
+              "name": "COMMENTS",
+              "alias": "COMMENTS"
+            },
+            {
+              "name": "PLAT_BOOK",
+              "alias": "PLAT_BOOK"
+            },
+            {
+              "name": "PLAT_PAGE",
+              "alias": "PLAT_PAGE"
+            },
+            {
+              "name": "RECORDED_DATE",
+              "alias": "RECORDED_DATE",
+              "isdate": true
+            },
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STArea()",
+              "alias": "SHAPE.STArea()",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STLength()",
+              "alias": "SHAPE.STLength()",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      },
+      {
+        "name": "Subdivision Exempt",
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer",
+        "id": 1,
+        "zoomscale": "",
+        "forcescale": false,
+        "fields": {
+          "all": false,
+          "field": [
+            {
+              "name": "SUBDIVISION_NAME",
+              "alias": "SUBDIVISION_NAME"
+            },
+            {
+              "name": "SUBDIVISION_TYPE",
+              "alias": "SUBDIVISION_TYPE"
+            },
+            {
+              "name": "PHASE_NAME",
+              "alias": "PHASE_NAME"
+            },
+            {
+              "name": "SECTION_NAME",
+              "alias": "SECTION_NAME"
+            },
+            {
+              "name": "TOTAL_LOTS",
+              "alias": "TOTAL_LOTS",
+              "isnumber": true
+            },
+            {
+              "name": "LOCATION",
+              "alias": "LOCATION"
+            },
+            {
+              "name": "COMMENTS",
+              "alias": "COMMENTS"
+            },
+            {
+              "name": "PLAT_BOOK",
+              "alias": "PLAT_BOOK"
+            },
+            {
+              "name": "PLAT_PAGE",
+              "alias": "PLAT_PAGE"
+            },
+            {
+              "name": "RECORDED_DATE",
+              "alias": "RECORDED_DATE",
+              "isdate": true
+            },
+            {
+              "name": "ACRES",
+              "alias": "ACRES",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STArea()",
+              "alias": "SHAPE.STArea()",
+              "isnumber": true
+            },
+            {
+              "name": "SHAPE.STLength()",
+              "alias": "SHAPE.STLength()",
+              "isnumber": true
+            }
+          ]
+        },
+        "links": {}
+      }
+    ],
+    "excludelayer": [
+      {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Imagery/Aerials2013/MapServer"
+      }
+    ]
+  },
+  "symbols": {
+    "simplemarkersymbol": {
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "outline": {
+        "color": [
+          255,
+          255,
+          255,
+          153
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    },
+    "picturemarkersymbol": {
+      "url": "/widgets/Identify/images/i_info.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "width": 2
+    },
+    "simplefillsymbol": {
+      "color": [
+        68,
+        140,
+        203,
+        153
+      ],
+      "outline": {
+        "color": [
+          68,
+          140,
+          203,
+          153
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  }
+}

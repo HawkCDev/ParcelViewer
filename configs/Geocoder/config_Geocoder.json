@@ -1,0 +1,15 @@
+{
+  "geocoder": {
+    "autoComplete": true,
+    "minCharacters": 3,
+    "arcgisGeocoder": false,
+    "geocoders": [
+      {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Resources/Tax_Parcel_Locator_Composite/GeocodeServer",
+        "name": "Default",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Name, Addr, PIN (Exact), PID"
+      }
+    ]
+  }
+}

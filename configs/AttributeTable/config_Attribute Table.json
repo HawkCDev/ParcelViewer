@@ -1,0 +1,341 @@
+{
+  "layerInfos": [
+    {
+      "name": "City Limits",
+      "id": "Ariel_Overlay_GP_9743_0",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "Harnett County Major Roads",
+      "id": "Ariel_Overlay_GP_9743_1",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "Harnett County Roads",
+      "id": "Ariel_Overlay_GP_9743_2",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Rivers",
+      "id": "Ariel_Overlay_GP_9743_4",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Creeks",
+      "id": "Ariel_Overlay_GP_9743_5",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Cape Fear River",
+      "id": "Ariel_Overlay_GP_9743_6",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Raven Rock State Park",
+      "id": "Ariel_Overlay_GP_9743_7",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "USA property",
+      "id": "Ariel_Overlay_GP_9743_8",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Tax Parcel",
+      "id": "Ariel_Overlay_GP_9743_24",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/BaseMaps/Ariel_Overlay_GP/MapServer/24"
+      },
+      "show": true
+    },
+    {
+      "name": "Address Numbers",
+      "id": "Address_types_3930_0",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/0"
+      },
+      "show": true
+    },
+    {
+      "name": "Commercial",
+      "id": "Address_types_3930_1",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "Church",
+      "id": "Address_types_3930_2",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Government Building",
+      "id": "Address_types_3930_3",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/3"
+      },
+      "show": true
+    },
+    {
+      "name": "School",
+      "id": "Address_types_3930_4",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/4"
+      },
+      "show": true
+    },
+    {
+      "name": "Tower",
+      "id": "Address_types_3930_5",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Emergency Department ",
+      "id": "Address_types_3930_6",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/6"
+      },
+      "show": true
+    },
+    {
+      "name": "Single Family",
+      "id": "Address_types_3930_7",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "Multi Family",
+      "id": "Address_types_3930_8",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Mobile Home",
+      "id": "Address_types_3930_9",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Vacant",
+      "id": "Address_types_3930_10",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/10"
+      },
+      "show": false
+    },
+    {
+      "name": "Other",
+      "id": "Address_types_3930_11",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/11"
+      },
+      "show": false
+    },
+    {
+      "name": "Other Building",
+      "id": "Address_types_3930_12",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/General/Address_types/MapServer/12"
+      },
+      "show": false
+    },
+    {
+      "name": "Noise and Air Polution Zone",
+      "id": "Planning_8843_0",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "Zoning Districts",
+      "id": "Planning_8843_1",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/1"
+      },
+      "show": true
+    },
+    {
+      "name": "Land Use Current (2006)",
+      "id": "Planning_8843_2",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Flood Prone Areas",
+      "id": "Planning_8843_3",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/3"
+      },
+      "show": false
+    },
+    {
+      "name": "Highway Corridor Overlay District",
+      "id": "Planning_8843_4",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/4"
+      },
+      "show": false
+    },
+    {
+      "name": "Military Corridor Overlay District",
+      "id": "Planning_8843_5",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Land Cover",
+      "id": "Planning_8843_6",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Industrial Parks",
+      "id": "Planning_8843_7",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/7"
+      },
+      "show": false
+    },
+    {
+      "name": "Agri Districts",
+      "id": "Planning_8843_8",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/8"
+      },
+      "show": false
+    },
+    {
+      "name": "Agri Districts 1mi Buffer",
+      "id": "Planning_8843_9",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/9"
+      },
+      "show": false
+    },
+    {
+      "name": "Conservation Easements",
+      "id": "Planning_8843_10",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Planning/MapServer/10"
+      },
+      "show": false
+    },
+    {
+      "name": "MHP",
+      "id": "Subdivisions_7635_0",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer/0"
+      },
+      "show": true
+    },
+    {
+      "name": "Exempt",
+      "id": "Subdivisions_7635_1",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer/1"
+      },
+      "show": true
+    },
+    {
+      "name": "Minor",
+      "id": "Subdivisions_7635_2",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer/2"
+      },
+      "show": true
+    },
+    {
+      "name": "Industrial",
+      "id": "Subdivisions_7635_3",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer/3"
+      },
+      "show": true
+    },
+    {
+      "name": "Major",
+      "id": "Subdivisions_7635_4",
+      "layer": {
+        "url": "http://gistoolbox.harnett.org/arcgis/rest/services/Planning/Subdivisions/MapServer/4"
+      },
+      "show": true
+    },
+    {
+      "name": "County Boundary Arc",
+      "id": "NCDOT_CountyBdy_Arc_1928_0",
+      "layer": {
+        "url": "https://gis11.services.ncdot.gov/arcgis/rest/services/NCDOT_CountyBdy_Arc/MapServer/0"
+      },
+      "show": false
+    },
+    {
+      "name": "County Boundary Arc-NCDOT_CountyBdy_Arc_1928_1",
+      "id": "NCDOT_CountyBdy_Arc_1928_1",
+      "layer": {
+        "url": "https://gis11.services.ncdot.gov/arcgis/rest/services/NCDOT_CountyBdy_Arc/MapServer/1"
+      },
+      "show": false
+    },
+    {
+      "name": "County Boundary Arc-NCDOT_CountyBdy_Arc_1928_2",
+      "id": "NCDOT_CountyBdy_Arc_1928_2",
+      "layer": {
+        "url": "https://gis11.services.ncdot.gov/arcgis/rest/services/NCDOT_CountyBdy_Arc/MapServer/2"
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false
+}

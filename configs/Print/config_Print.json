@@ -1,0 +1,8 @@
+{
+  "serviceURL": "http://gistoolbox.harnett.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "ArcGIS Web Map",
+  "defaultAuthor": "Web AppBuilder for ArcGIS",
+  "defaultCopyright": "",
+  "defaultFormat": "",
+  "defaultLayout": ""
+}
